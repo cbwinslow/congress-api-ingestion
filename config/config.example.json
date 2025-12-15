@@ -1,0 +1,18 @@
+{
+  "api_keys": {
+    "congress_gov": "YOUR_CONGRESS_GOV_API_KEY_HERE",
+    "govinfo": "YOUR_GOVINFO_API_KEY_HERE"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "opendiscourse",
+    "user": "opendiscourse",
+    "password": "opendiscourse123"
+  },
+  "api_settings": {
+    "rate_limit": 1000,
+    "timeout": 30,
+    "retry_attempts": 3
+  }
+}
