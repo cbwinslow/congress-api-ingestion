@@ -1,0 +1,29 @@
+{
+    "congress_api": {
+        "api_key": "DEMO_KEY",
+        "base_url": "https://api.congress.gov/v3"
+    },
+    "database": {
+        "sqlite": {
+            "path": "data/congress.db"
+        },
+        "postgresql": {
+            "database": "opendiscourse",
+            "user": "opendiscourse",
+            "password": "opendiscourse123",
+            "host": "100.90.251.120",
+            "port": 5432
+        }
+    },
+    "api_settings": {
+        "rate_limit": 1000,
+        "timeout": 30,
+        "max_retries": 3
+    },
+    "ingestion_settings": {
+        "workers": 8,
+        "batch_size": 50,
+        "max_connections": 20,
+        "connection_pool_size": 10
+    }
+}
